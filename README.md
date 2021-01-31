@@ -13,3 +13,14 @@ Future work that could easily be added but omitted from the scope of this projec
 * Jest unit tests
 * e2e tests (Cypress)
 * Storybook
+
+## View
+
+### Desktop
+![desktop](https://raw.githubusercontent.com/andyish/react-demo/main/public/desktop.png)
+
+### Tablet
+![desktop](https://raw.githubusercontent.com/andyish/react-demo/main/public/tablet.png)
+
+### Mobile
+![desktop](https://raw.githubusercontent.com/andyish/react-demo/main/public/mobile.png)
