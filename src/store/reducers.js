@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import images from './ducks/images.duck';
+import recipees from './ducks/recipees.duck';
 
 const createRootReducer = () => combineReducers({
-  images
+  recipees
 });
 
 export default createRootReducer;

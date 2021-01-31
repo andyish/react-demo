@@ -1,11 +1,11 @@
 @import '../../theme/variables.scss';
 
-.imageList {
+.recipeeList {
   display: flex;
   flex-wrap: wrap;
 }
 
-.imageList__card {
+.recipeeList__card {
   box-sizing: border-box;
   flex: 0 1 100%;
   @include tablet {

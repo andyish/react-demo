@@ -1,14 +1,60 @@
 
+$height: 220px;
+$zoom: 100%;
+
 .card {
-  box-shadow: 0 1px 1px 0 rgb(66, 66, 66), 0 1px 3px 1px rgb(66, 66, 66);
+  height: $height;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
   margin: 8px;
   position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    opacity: .95;
+  }
 }
 
-.card__img {
+.card__image {
+  height: 100%;
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent no-repeat center center;
+  background-size: cover;
+  transition: all .5s ease-in-out;
+}
+
+.card:hover .card__image {
+  height: 150%;
+  width: 150%;
+  top: -25%;
+  left: -25%;
 }
 
 .card__caption {
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 4px;
+}
+
+.card__title {
+  color: #ffffff;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+.card__info {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+  color: #ffffff;
+}
+
+.card__info--visible {
+  max-height: $height;
 }

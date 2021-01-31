@@ -1,8 +1,9 @@
+import { initialRecipeeState, RecipeeState } from "./ducks/recipees.duck";
 
 export interface AppState {
-  images: [];
+  recipees: RecipeeState;
 }
 
 export const initialAppState: AppState = {
-  images: [],
+  recipees: initialRecipeeState,
 }
