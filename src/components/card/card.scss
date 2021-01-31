@@ -1,0 +1,14 @@
+
+.card {
+  box-shadow: 0 1px 1px 0 rgb(66, 66, 66), 0 1px 3px 1px rgb(66, 66, 66);
+  margin: 8px;
+  position: relative;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__caption {
+  position: absolute;
+}
